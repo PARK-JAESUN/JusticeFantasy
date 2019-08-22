@@ -20,6 +20,7 @@
     padding:30px;
 
 
+
   }
 
   h3{
@@ -30,7 +31,7 @@
 
   #grid ul{
     border-right:1px solid white;
-    width:160px;
+    width:180px;
     margin:0;
     padding:30px;
     text-align: left;
@@ -40,7 +41,7 @@
 
   #grid{
     display: grid;
-    grid-template-columns: 215px 1fr;
+    grid-template-columns: 240px 1fr;
   }
 
   #article{

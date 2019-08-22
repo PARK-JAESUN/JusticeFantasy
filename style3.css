@@ -15,41 +15,38 @@
   h1{
     font-size:45px;
     text-align: center;
-    border-bottom:1px solid gray;
+    border-bottom:1px solid white;
     margin:0;
     padding:30px;
+    }
 
-
-  }
-
+  
   h3{
-    text-align: left;
-    font-size:20px;
-    color:white;
-    text-align: center;
-  }
+      text-align: center;
+      font-size:15px;
+      color:white;
+    }
+
 
   h4{
-    border-color:gray;
-    border-width:3px;
-    border-style: solid;
-    display: inline;
+    text-align: left;
+    font-size:18px;
     color:white;
   }
 
   #grid ul{
-    border-right:1px solid gray;
+    border-right:1px solid white;
     width:180px;
     margin:0;
     padding:30px;
     text-align: left;
-    line-height: 2em;
+    line-height: 2.2em;
 
   }
 
   #grid{
     display: grid;
-    grid-template-columns: 215px 1fr;
+    grid-template-columns: 240px 1fr;
   }
 
   #article{
@@ -67,7 +64,6 @@
 
   }
 
-
   @media(max-width:800px){
     #grid{
       display: block;
@@ -80,5 +76,4 @@
     h1 {
       border-bottom:none;
     }
-
   }
