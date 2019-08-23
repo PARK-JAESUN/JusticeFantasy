@@ -18,6 +18,7 @@
     border-bottom:1px solid gray;
     margin:0;
     padding:30px;
+    font-family: Tahoma;
 
 
   }
@@ -27,6 +28,7 @@
     font-size:20px;
     color:white;
     text-align: center;
+    font-family: Tahoma;
   }
 
   h4{
@@ -35,6 +37,7 @@
     border-style: solid;
     display: inline;
     color:white;
+    font-family: Tahoma;
   }
 
   #grid ul{
@@ -66,6 +69,8 @@
     background-size: contain;
 
   }
+
+  #select{color:white;}
 
 
   @media(max-width:800px){

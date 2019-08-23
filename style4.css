@@ -18,31 +18,43 @@
     border-bottom:1px solid white;
     margin:0;
     padding:30px;
+    font-family: Tahoma;
     }
 
     h2{
           text-align: center;
           font-size:30px;
           color:white;
+          font-family:"fontello";
+          font-family: Tahoma;
+
         }
 
   h3{
       text-align: center;
       font-size:25px;
-      color:red;
+      color:burlywood;
+      font-family:"fontello";
+      font-family: Serif;
+
+
+
     }
 
 
   h4{
     text-align: left;
     font-size:20px;
-    color:white;
+    color:wheat;
+    font-family:"fontello";
+    font-family: Tahoma;
   }
 
   h5{
     text-align: left;
     font-size:18px;
     color:white;
+    font-family: Tahoma;
   }
 
 
@@ -76,6 +88,8 @@
     background-size: contain;
 
   }
+
+  #select{color:white;}
 
   @media(max-width:800px){
     #grid{

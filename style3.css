@@ -18,13 +18,17 @@
     border-bottom:1px solid white;
     margin:0;
     padding:30px;
+    font-family: Tahoma;
     }
 
-  
+
   h3{
       text-align: center;
       font-size:15px;
       color:white;
+      font-family:"fontello";
+      font-family: Tahoma;
+
     }
 
 
@@ -32,6 +36,9 @@
     text-align: left;
     font-size:18px;
     color:white;
+    font-family:"fontello";
+    font-family: Tahoma;
+
   }
 
   #grid ul{
@@ -63,6 +70,8 @@
     background-size: contain;
 
   }
+
+  #select{color:white;}
 
   @media(max-width:800px){
     #grid{
