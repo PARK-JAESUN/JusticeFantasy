@@ -19,15 +19,45 @@
     margin:0;
     padding:30px;
     font-family: Tahoma;
+    }
 
-  }
+    h2{
+          text-align: center;
+          font-size:30px;
+          color:white;
+          font-family:"fontello";
+          font-family: Tahoma;
+
+        }
 
   h3{
+      text-align: left;
+      font-size:14px;
+      color:lavender;
+      font-family:"fontello";
+      font-family: Serif;
+
+
+
+    }
+
+
+  h4{
     text-align: left;
     font-size:18px;
+    color:wheat;
+    font-family:"fontello";
+    font-family: Tahoma;
+  }
+
+  h5{
+    text-align: center;
+    font-size:15px;
     color:white;
     font-family: Tahoma;
   }
+
+
 
   #grid ul{
     border-right:1px solid white;
