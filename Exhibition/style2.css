@@ -1,0 +1,89 @@
+
+  body{
+    margin:0px;
+    text-align: center;
+
+  }
+
+
+  a{
+    color:orange;
+    text-decoration: none;
+
+  }
+
+  h1{
+    font-size:45px;
+    text-align: center;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding:30px;
+    font-family: Tahoma;
+
+
+  }
+
+  h3{
+    text-align: left;
+    font-size:20px;
+    color:white;
+    text-align: center;
+    font-family: Tahoma;
+  }
+
+  h4{
+    border-color:gray;
+    border-width:3px;
+    border-style: solid;
+    display: inline;
+    color:white;
+    font-family: Tahoma;
+  }
+
+  #grid ul{
+    border-right:1px solid gray;
+    width:180px;
+    margin:0;
+    padding:30px;
+    text-align: left;
+    line-height: 2em;
+
+  }
+
+  #grid{
+    display: grid;
+    grid-template-columns: 215px 1fr;
+  }
+
+  #article{
+    padding-left:5px;
+    margin:10px;
+  }
+
+  #background{
+
+    height:2000px;
+
+    background-image: url('jp.jpeg');
+
+    background-size: contain;
+
+  }
+
+  #select{color:white;}
+
+
+  @media(max-width:800px){
+    #grid{
+      display: block;
+    }
+
+    #grid ul{
+    border-right:none;
+    }
+
+    h1 {
+      border-bottom:none;
+    }
+
+  }
